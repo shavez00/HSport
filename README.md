@@ -1,1 +1,3 @@
 # HSport
+
+This is my version of the H+ Sport website which is a fictitious brand created by <a href="http://lynda.com/" target="_blank">lynda.com</a> solely for the purpose of training In the Lynda course JavaScript for Web Developers.  I created this site as a practice for JavaScript and as an example of my capabilities as a developer. All products and people associated with H+ Sport are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.

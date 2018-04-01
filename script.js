@@ -1,6 +1,13 @@
 (function() {
 "use strict";
 	
+document.getElementbyId("cart-hplus").addEventListener("submit", estimateTotal);
+
+estimateTotal(event) {
+  event.preventDefault();
+
+	console.log("Submit Clicked");
+}
 	
 	
 })();
