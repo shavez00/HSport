@@ -1,14 +1,16 @@
 (function() {
 "use strict";
 	
-document.getElementbyId("cart-hplus").addEventListener("submit", estimateTotal);
+document.getElementById("cart-hplus").addEventListener("submit", estimateTotal);
 
-estimateTotal(event) {
+function estimateTotal(event) {
   event.preventDefault();
 
-	if (document.getElementbyId('s-state') === '') alert('Please enter shipping state');
+	if (document.getElementById('s-state') === "CA") {
+		console.log('Please enter a state');
+	}
 }
-	
+
 	
 })();
 /* http://stackoverflow.com/questions/8228281/what-is-the-function-construct-in-javascript
