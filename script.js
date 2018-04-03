@@ -6,9 +6,7 @@ document.getElementbyId("cart-hplus").addEventListener("submit", estimateTotal);
 estimateTotal(event) {
   event.preventDefault();
 
-	if (document.getElementbyId('s-state') === '') {
-		alert('Please enter shipping state');
-	}
+	if (document.getElementbyId('s-state') === '') alert('Please enter shipping state');
 }
 	
 	
