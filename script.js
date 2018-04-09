@@ -10,6 +10,8 @@ function estimateTotal(event) {
 
   if (state.value === "") {
 		window.alert("Please enter a state");
+		
+		state.focus();
 	}
 }
 
