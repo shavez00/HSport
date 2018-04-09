@@ -6,8 +6,10 @@ document.getElementById("cart-hplus").addEventListener("submit", estimateTotal);
 function estimateTotal(event) {
   event.preventDefault();
 
-	if (document.getElementById('s-state') === "CA") {
-		console.log('Please enter a state');
+  var state = document.getElementById("s-state");
+
+  if (state.value === "") {
+		window.alert("Please enter a state");
 	}
 }
 
